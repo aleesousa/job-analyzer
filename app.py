@@ -8,7 +8,7 @@ file_path = os.path.join(BASE_DIR, "data", "jobs.csv")
 
 df = pd.read_csv(file_path)
 
-st.title("Job Market Insights")
+st.title("Job Analyzer Insights")
 
 st.markdown("""
 Dashboard interativo que analisa vagas de tecnologia,
@@ -32,7 +32,7 @@ if filtro_tecnologia:
     df_filtrado = df_filtrado[df_filtrado["descricao"].str.lower().str.contains(filtro_tecnologia.lower(), na=False)]
 
 # ---------------- TECNOLOGIAS ----------------
-techs = ["python", "sql", "react", "aws", "excel"]
+techs = ["python", "sql", "power bi", "aws", "excel"]
 
 for tech in techs:
     df_filtrado[tech] = df_filtrado["descricao"].str.lower().str.contains(tech, na=False)

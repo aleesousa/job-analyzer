@@ -16,7 +16,7 @@ headers = {
 
 all_jobs = []
 
-for page in range(1, 6):  # coleta 5 páginas
+for page in range(1, 12):  # coleta 11 páginas
     params = {
         "query": "data analyst remote",
         "page": str(page),

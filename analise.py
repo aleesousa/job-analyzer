@@ -2,7 +2,7 @@ import pandas as pd
 
 df = pd.read_csv("data/jobs.csv")
 
-techs = ["python", "sql", "react", "aws", "excel"]
+techs = ["python", "sql", "power bi", "aws", "excel"]
 
 for tech in techs:
     df[tech] = df["descricao"].str.lower().str.contains(tech, na=False)
