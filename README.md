@@ -109,6 +109,13 @@ O projeto permite identificar:
 *  Possível deploy da aplicação para acesso online
 
 ---
+## Resultado
+
+
+https://github.com/user-attachments/assets/ea5d4b9e-af22-4937-a32e-a478e8491cc1
+
+
+---
 
 ## Autor
 
